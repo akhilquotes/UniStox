@@ -1,0 +1,31 @@
+body {
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid #dfdfdf;
+  background-color: #fff;
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  width: 60vh;
+}
+
+.vl {
+  border-left: 3px solid blue;
+  height: 85vh;
+}
+
+.info{
+  background-color: blue;
+}
+.blueCustom{
+  background: #4444ff !important;
+  border: none !important;
+}
+.tblCard{
+  
+    --bs-card-spacer-y: 0 !important;
+    --bs-card-spacer-x: 0 !important;
+  }
